@@ -1,11 +1,11 @@
 <% provide :title, t("about") %>
-<h1><%= t("about") %></h1>
+<h1><%= t "about" %></h1>
 <p>
-  The <%= link_to "https://www.railstutorial.org/" do %>
-  <em>Ruby on Rails Tutorial</em>
-  <% end %>, part of the
-  <%= link_to "Learn Enough", "https://www.learnenough.org" %> family of tutorials, is a
-  <%= link_to "book", "https://www.railstutorial.org/book" %> and
-  <%= link_to "screencast series", "https://screencasts.railstutorial.org/" %>   to teach web development with
-  <%= link_to "Ruby on Rails", "https://rubyonrails.org/" %>. This is the sample app for the tutorial.
+  <%= link_to Settings.rails_tut_org do %>
+  <em><%= Settings.rails_tut %></em>
+  <% end %>, <%= t(".part_of")%>
+  <%= link_to t(".learn"), Settings.learn_enough_url %> <%= t(".family") %>
+  <%= link_to t("book"), Settings.rails_tut_book_url %> <%= t("and") %>
+  <%= link_to t(".screen_cast"), Settings.rails_screencast_url %> <%= t(".webdev") %>
+  <%= link_to Settings.rails, Settings.rails_tut_url %> <%= t(".sample_app") %>
 </p>

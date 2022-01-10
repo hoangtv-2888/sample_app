@@ -2,3 +2,12 @@ email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 max_email: 255
 min_pass: 6
 max_name: 50
+rails_tut: "Ruby on Rails Tutorial"
+rails_tut_url: "https://www.railstutorial.org/"
+rails: "Ruby on Rails"
+rails_screencast_url: "https://screencasts.railstutorial.org/"
+learn_enougn_url: "https://www.learnenough.org"
+rails_tut_book_url: "http://www.railstutorial.org/book"
+rails_tut_help_url: "http://www.railstutorial.org/help"
+rails_tut_contact_url: "https://www.railstutorial.org/contact"
+gavatar: "https://secure.gravatar.com/avatar/#{gravatar_id}"

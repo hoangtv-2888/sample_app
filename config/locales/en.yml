@@ -1,9 +1,42 @@
 en:
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm Password"
   home: "Home"
   help: "Help"
   about: "About"
   contact: "Contact"
   log_in: "Log in"
   sign_in: "Sign in"
-  wellcome_to: "Wellcome to"
+  sign_up: "Sign up"
+  welcome_to: "Wellcome to Sample App"
   news: "News"
+  book: "book"
+  and: "and"
+  user_not_found: "User not found"
+  fail_to_create: "Fail to create"
+  shared:
+    error_messages:
+      error: "error"
+  static_pages:
+    home:
+      this_is_home_page: "This is the home page for the"
+      sample_app: "sample application."
+    help:
+      help: "Get help on the Ruby on Rails Tutorial at the"
+      see_help: "To get help on this sample app, see the"
+    about:
+      learn_enough: "Learn Enough"
+      screen_cast: "screencast series"
+      part_of: "part of the"
+      family: "family of tutorials, is a"
+      webdev: "to each web development with"
+      sampple_app: "This is the sample app for the tutorial."
+    contact:
+      sample_app: "the sample app at the"
