@@ -27,6 +27,8 @@ gem "bcrypt", "3.1.13"
 
 gem "config"
 
+gem "pry-rails"
+
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 
 gem "bootsnap", require: false

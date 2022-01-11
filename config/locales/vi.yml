@@ -1,4 +1,13 @@
 vi:
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên đăng nhập"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
   home: "Trang chủ"
   help: "Trợ giúp"
   about: "Giới thiệu"
@@ -6,5 +15,28 @@ vi:
   log_in: "Đăng nhập"
   sign_in: "Đăng ký"
   sign_up: "Đăng ký"
-  wellcome_to: "Chào mừng đến với"
+  welcome_to: "Chào mừng đến với Sample App"
   news: "Tin Tức"
+  book: "sách"
+  and: "và"
+  user_not_found: "Người dùng không tồn tại"
+  fail_to_create: "Tạo tài khoản thất bại"
+  shared:
+    error_messages:
+      error: "Lỗi"
+  static_pages:
+    home:
+      this_is_home_page: "Đây là trang chủ cho"
+      sample_app: "ứng dụng mẫu."
+    help:
+      help: "Xem trợ giúp tại"
+      see_help: "Để xem trợ giúp, truy cập"
+    about:
+      learn_enough: "Tìm hiểu thêm"
+      screen_cast: "screencast series"
+      part_of: "một phần của"
+      family: "gia đình của hướng dẫn là"
+      webdev: "với mỗi sự phát triển web với"
+      sampple_app: "Đây là sample app cho hướng dẫn"
+    contact:
+      sample_app: "ứng dụng mẫu tại"
