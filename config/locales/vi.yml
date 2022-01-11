@@ -21,6 +21,18 @@ vi:
   and: "và"
   user_not_found: "Người dùng không tồn tại"
   fail_to_create: "Tạo tài khoản thất bại"
+  new_user?: "Người dùng mới? "
+  sign_up_now!: "Đăng ký ngay"
+  password: "Mật khẩu"
+  invalid_email_password_combination: "Sai email hoặc mật khẩu"
+  layouts:
+    header:
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      login: "Đăng nhập"
   shared:
     error_messages:
       error: "Lỗi"

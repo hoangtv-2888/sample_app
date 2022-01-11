@@ -21,6 +21,18 @@ en:
   and: "and"
   user_not_found: "User not found"
   fail_to_create: "Fail to create"
+  new_user?: "New user? "
+  sign_up_now!: "Sign up now"
+  password: "Password"
+  invalid_email_password_combination: "Invalid email password"
+  layouts:
+    header:
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+      login: "Log in"
   shared:
     error_messages:
       error: "error"
