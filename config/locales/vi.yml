@@ -25,6 +25,7 @@ vi:
   sign_up_now!: "Đăng ký ngay"
   password: "Mật khẩu"
   invalid_email_password_combination: "Sai email hoặc mật khẩu"
+  remember_me: "Ghi nhớ đăng nhập trên thiết bị này?"
   layouts:
     header:
       user: "Người dùng"

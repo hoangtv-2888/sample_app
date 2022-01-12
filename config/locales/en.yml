@@ -25,6 +25,7 @@ en:
   sign_up_now!: "Sign up now"
   password: "Password"
   invalid_email_password_combination: "Invalid email password"
+  remember_me: "Remember me on this device?"
   layouts:
     header:
       user: "User"
