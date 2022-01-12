@@ -26,6 +26,11 @@ en:
   password: "Password"
   invalid_email_password_combination: "Invalid email password"
   remember_me: "Remember me on this device?"
+  updated: "Update successfully"
+  update_failed: "Update failed"
+  please_login: "Please login"
+  success: "Successfully"
+  fail: "Fail"
   layouts:
     header:
       user: "User"
@@ -53,3 +58,14 @@ en:
       sampple_app: "This is the sample app for the tutorial."
     contact:
       sample_app: "the sample app at the"
+  users:
+    edit:
+      title: "Edit User"
+      save_change: "Save change"
+      change: "Change"
+      update_profile: "Update your profile"
+    index:
+      title: "All Users"
+    user:
+      delete: "Delete"
+      sure: "Sure"

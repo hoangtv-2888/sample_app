@@ -26,6 +26,11 @@ vi:
   password: "Mật khẩu"
   invalid_email_password_combination: "Sai email hoặc mật khẩu"
   remember_me: "Ghi nhớ đăng nhập trên thiết bị này?"
+  updated: "Cập nhật thành công"
+  update_failed: "Cập nhật thất bại"
+  please_login: "Bạn phải đăng nhập trước!"
+  success: "Thành công"
+  fail: "Thất bại"
   layouts:
     header:
       user: "Người dùng"
@@ -53,3 +58,14 @@ vi:
       sampple_app: "Đây là sample app cho hướng dẫn"
     contact:
       sample_app: "ứng dụng mẫu tại"
+  users:
+    edit:
+      title: "Chỉnh sửa gười dùng"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+      update_profile: "Thay đổi thông tin của bạn"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      sure: "Bạn có chắc?"

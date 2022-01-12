@@ -31,6 +31,10 @@ gem "pry-rails"
 
 gem "webpacker"
 
+gem "faker", "2.1.2"
+
+gem "pagy"
+
 gem "turbolinks"
 
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
