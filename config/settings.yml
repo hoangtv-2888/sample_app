@@ -11,3 +11,5 @@ rails_tut_book_url: "http://www.railstutorial.org/book"
 rails_tut_help_url: "http://www.railstutorial.org/help"
 rails_tut_contact_url: "https://www.railstutorial.org/contact"
 gavatar: "https://secure.gravatar.com/avatar/#{gravatar_id}"
+avatar_size: 50
+paging_numbers: 20
