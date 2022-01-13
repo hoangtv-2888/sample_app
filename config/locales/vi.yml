@@ -31,6 +31,14 @@ vi:
   please_login: "Bạn phải đăng nhập trước!"
   success: "Thành công"
   fail: "Thất bại"
+  click_to_activate: "Bấm vào đường dẫn bên dưới để kích hoạt tài khoản"
+  activate: "Kích hoạtt"
+  hi: "Xin chào"
+  check_your_mail: "Hãy kiểm tra email của bạn"
+  email_title: "Kích hoạt tài khoản"
+  acount_not_activated: "Tài khoản chưa xác thực, vui lòng xác thực qua email"
+  activated: "Kích hoạt thành công"
+  activate_failed: "Kích hoạt tài khoản thất bại"
   layouts:
     header:
       user: "Người dùng"

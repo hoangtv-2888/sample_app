@@ -31,6 +31,14 @@ en:
   please_login: "Please login"
   success: "Successfully"
   fail: "Fail"
+  click_to_activate: "Click on the link below to activate your account"
+  activate: "Activate"
+  hi: "Hi"
+  check_your_mail: "Check your email please"
+  email_title: "Account ativation"
+  acount_not_activated: "Account not activated"
+  activated: "Account activated"
+  activate_failed: "Account activated failed"
   layouts:
     header:
       user: "User"
