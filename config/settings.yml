@@ -13,3 +13,4 @@ rails_tut_contact_url: "https://www.railstutorial.org/contact"
 gavatar: "https://secure.gravatar.com/avatar/#{gravatar_id}"
 avatar_size: 50
 paging_numbers: 20
+expired_password_time: 2

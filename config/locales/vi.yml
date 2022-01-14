@@ -32,13 +32,19 @@ vi:
   success: "Thành công"
   fail: "Thất bại"
   click_to_activate: "Bấm vào đường dẫn bên dưới để kích hoạt tài khoản"
-  activate: "Kích hoạtt"
+  activate: "Kích hoạt"
   hi: "Xin chào"
   check_your_mail: "Hãy kiểm tra email của bạn"
   email_title: "Kích hoạt tài khoản"
   acount_not_activated: "Tài khoản chưa xác thực, vui lòng xác thực qua email"
   activated: "Kích hoạt thành công"
-  activate_failed: "Kích hoạt tài khoản thất bại"
+  activated_failed: "Kích hoạt tài khoản thất bại"
+  submit: "Gửi đi"
+  forgot_password: "Quên mật khẩu"
+  email_not_found: "Email không khả dụng"
+  reset_password: "Đặt lại mật khẩu"
+  cannot_blank: "Không được để trống"
+  confirmation: "Xác nhận lại"
   layouts:
     header:
       user: "Người dùng"
@@ -77,3 +83,20 @@ vi:
     user:
       delete: "Xóa"
       sure: "Bạn có chắc?"
+  user_mailer:
+    password_reset:
+      click_below_to_reset: "Truy cập đường dẫn phía dưới để đặt lại mật khẩu"
+      expire_time: "Đường dẫn sẽ hết hạn sau 2 giờ."
+      ignore_if_stay: "Nếu bạn không yêu cầu đặt lại mật khẩu,
+                      vui lòng bỏ qua email, mật khẩu của bạn sẽ được giữ nguyên."
+  password_resets:
+    edit:
+      title: "Cập nhật mật khẩu"
+      header: "Cập nhật mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      reset_expired: "Hết hạn cập nhật"
+      error_user: "Có lỗi khi cập nhật"
+      activated_fail: "Activated fail"
+    update:
+      password_reseted: "Mật khẩu đã được thay đổi."
+      reset_failed: "Cập nhật thất bại"
