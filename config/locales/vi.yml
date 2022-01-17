@@ -2,12 +2,23 @@ vi:
   activerecord:
     models:
       user: "Người dùng"
+      micropost: "Bài đăng"
     attributes:
       user:
         name: "Tên đăng nhập"
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+      micropost:
+        content: "Nội dung"
+        image: "Hình ảnh"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "Dữ liệu không hợp lệ"
+              large_size: "kích cỡ nên nhỏ hơn 5mb"
   home: "Trang chủ"
   help: "Trợ giúp"
   about: "Giới thiệu"
@@ -45,6 +56,12 @@ vi:
   reset_password: "Đặt lại mật khẩu"
   cannot_blank: "Không được để trống"
   confirmation: "Xác nhận lại"
+  view_profile: "Xem thông tin"
+  micropost: "Bài đăng"
+  post: "Đăng"
+  compose_new_post: "Nội dung bài viết"
+  del: "Xóa"
+  sure?: "Bạn có chắc?"
   layouts:
     header:
       user: "Người dùng"
@@ -100,3 +117,15 @@ vi:
     update:
       password_reseted: "Mật khẩu đã được thay đổi."
       reset_failed: "Cập nhật thất bại"
+  microposts:
+    create:
+      micropost_created: "Bài viết đã được tạo!"
+      micropost_created_fail: "Tạo thất bại!"
+    destroy:
+      micropost_deleted: "Bài viết đã được xóa"
+      deleted_fail: "Xóa thất bại"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      invalid_format: "Không hợp lệ"
+      large_size: "Kích cỡ phải nhỏ hơn 5mb"

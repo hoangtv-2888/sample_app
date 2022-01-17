@@ -12,5 +12,11 @@ rails_tut_help_url: "http://www.railstutorial.org/help"
 rails_tut_contact_url: "https://www.railstutorial.org/contact"
 gavatar: "https://secure.gravatar.com/avatar/#{gravatar_id}"
 avatar_size: 50
+micropost_size: 50
 paging_numbers: 20
 expired_password_time: 2
+max_post_length: 140
+image_type: ["image/jpeg", "image/gif", "image/png"]
+image_types: "image/jpeg, image/gif, image/png"
+max_image_size: 5
+image_limit: 500
