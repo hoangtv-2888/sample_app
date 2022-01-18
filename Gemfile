@@ -3,6 +3,8 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 
+gem "active_storage_validations", "0.8.2"
+
 gem "bootstrap-sass", "3.4.1"
 
 gem "rails", "~> 7.0.0"
@@ -38,6 +40,12 @@ gem "pagy"
 gem "turbolinks"
 
 gem "figaro"
+
+gem "image_processing"
+
+gem "mini_magick"
+
+gem "i18n-js"
 
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 

@@ -2,12 +2,23 @@ en:
   activerecord:
     models:
       user: "User"
+      micropost: "Micropost"
     attributes:
       user:
         name: "Name"
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm Password"
+      micropost:
+        content: "Content"
+        image: "Image"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              large_size: "should be less than 5MB"
   home: "Home"
   help: "Help"
   about: "About"
@@ -45,6 +56,12 @@ en:
   reset_password: "Password reset"
   cannot_blank: "Cannot blank"
   confirmation: "confirmation"
+  view_profile: "View profile"
+  micropost: "Micropost"
+  post: "Post"
+  compose_new_post: "Compose new post"
+  del: "Delete"
+  sure?: "Sure?"
   layouts:
     header:
       user: "User"
@@ -100,3 +117,15 @@ en:
     update:
       password_reseted: "Password has been reset."
       reset_failed: "Reset failed"
+  microposts:
+    create:
+      micropost_created: "Micropost created!"
+      micropost_created_fail: "Create fail!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      deleted_fail: "Deleted fail"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      invalid_format: "Invalid format"
+      large_size: "should be less than 5mb"
