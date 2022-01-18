@@ -47,6 +47,18 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
 
+  def following
+    @title = t "following"
+    @pagy, @user = pagy @user.following, items: Settings.paging_numbers
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "followers"
+    @pagy, @user = pagy @user.followers, items: Settings.paging_numbers
+    render "show_follow"
+  end
+
   private
 
   def user_params

@@ -62,6 +62,10 @@ en:
   compose_new_post: "Compose new post"
   del: "Delete"
   sure?: "Sure?"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   layouts:
     header:
       user: "User"
