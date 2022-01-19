@@ -62,6 +62,10 @@ vi:
   compose_new_post: "Nội dung bài viết"
   del: "Xóa"
   sure?: "Bạn có chắc?"
+  following: "Đang theo dõi"
+  followers: "Được theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
   layouts:
     header:
       user: "Người dùng"
